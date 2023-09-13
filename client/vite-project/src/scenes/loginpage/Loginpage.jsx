@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 export default function Loginpage() {
   const [isLoading,setisLoading] = useState(false)
   const [formData, setFormData] = useState({
-    email: '',
-    password: '',
+    email: 'fake@gmail.com',
+    password: 'fake',
   });
 const dispatch = useDispatch()
 const navigate = useNavigate()
