@@ -20,12 +20,12 @@ const handleLogout = () => {
     };
   
     const handleSignUp = () => {
-      navigate("/");
+      navigate("/signup");
       console.log('SignUp clicked');
     };
   
     const handleLogin = () => {
-navigate("/login");
+navigate("/");
       console.log('Login clicked');
     };
 
